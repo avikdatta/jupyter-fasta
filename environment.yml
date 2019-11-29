@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+dependencies:
+  - python==3.6.9
+  - pandas==0.25.0
+  - nodejs
+  - pip
+  - pip:
+    - matplotlib
+    - seaborn
+    - sklearn
+    - numpy
