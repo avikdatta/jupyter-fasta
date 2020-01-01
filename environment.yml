@@ -10,3 +10,5 @@ dependencies:
     - seaborn
     - sklearn
     - numpy
+    - tensorflow
+    - jupyter-tensorboard
