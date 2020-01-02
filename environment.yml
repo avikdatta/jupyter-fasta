@@ -1,9 +1,11 @@
 channels:
   - conda-forge
+  - anaconda
 dependencies:
   - python==3.6.9
   - pandas==0.25.0
   - nodejs
+  - graphviz
   - pip
   - pip:
     - matplotlib
@@ -14,3 +16,4 @@ dependencies:
     - jupyter-tensorboard
     - pydot
     - graphviz
+    - jupyter-server-proxy
