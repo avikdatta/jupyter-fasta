@@ -7,3 +7,4 @@ set -x
 jupyter labextension install @jupyterlab/fasta-extension
 jupyter labextension install jupyterlab-drawio
 jupyter labextension install jupyterlab_tensorboard
+jupyter serverextension enable --sys-prefix nbserverproxy
